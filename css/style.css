@@ -1,0 +1,233 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+
+body{
+	background-color:#A5C5C1;
+}
+
+
+
+/*  This is for the Navbar */
+#navbar{
+		
+	position: fixed;
+  	top: 0;
+  	width: 100%;
+	background-color:white;
+	display : flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+
+
+
+/*	Logo and Image	in the Navbar */
+#logo{	
+	justify-content:center;
+	text-align:center;
+	width:35%;	
+}
+#logo img{
+
+	/* border:2px solid red; */
+	border-radius: 50%;
+	height : 50px;
+}
+
+
+
+
+
+
+/* This is for the list style */
+#navbar ul {
+	display : flex;
+		
+}
+
+#navbar ul li{	
+	list-style:none;	
+	font-size : 1.5rem;	
+}
+
+#navbar ul li a{
+	margin : 1.5rem;
+	text-decoration : none;
+}
+
+
+
+
+
+/* This is for the class content part */
+.main-container{
+	background-color:#9424B4;
+	display:flex;
+
+	/*
+	background-image: url('butterfly-8401173_1280.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+  	background-size: 100% 100%;
+	*/	
+}
+
+
+/* .container{
+		width:60%;
+}
+*/
+
+
+.about-container{
+	width : 60%;
+	
+	font-size:2.5rem;
+	line-height:1.5;
+
+	/*
+	margin: 1rem 2rem;
+	margin:20px 200px;
+	text-align:center;
+	text-align: justify;*/
+}
+
+
+.white {
+
+	color : white;
+}
+
+.text-container
+{	
+	width : 60%;
+	font-size:1.2rem;
+	text-align: justify;
+	line-height:1.5;
+	margin: 5px 100px 40px 100px;
+	
+}
+
+/*This is for the button*/
+
+.button-container{
+	width:80%;
+	align-item:center;
+	
+		
+}
+.btn{
+	
+	
+	
+	
+	height:50px;
+	width:100px;	
+	border-radius:25px;
+	margin : 0 5px 30px 5px;
+		
+
+	/*
+		justify-content:center;
+		text-align:center;
+		margin: 30px;
+		padding:10px;		
+	*/
+}
+
+.icon{
+	
+	/*
+	margin : 5px;
+	paddding:10px;
+	*/
+}
+
+.call-us{
+
+	width:20%;
+	background-color:blue;
+	color:white;
+	/*margin : 20px  0  0 200px;*/
+}
+
+
+
+.Email-us{
+	width:18%;
+	background-color:white;
+	color:black;
+	/*margin : 20px 0  0 10px;*/
+}
+.Whatsapp-us{
+	width:18%;
+	background-color:#20F013;
+	color:white;
+	/*margin : 20px 0  5px 10px;*/
+}
+
+
+/*	This is for the text Image Part		*/
+
+.Image-container01{
+	
+	width : 50%;
+}
+
+.ImageBox{
+	width : 70%;
+	height:400px;	
+}
+
+.ImageBox img
+{	width:100%;
+	height:100%;		
+}
+
+
+
+
+
+
+
+/*This is for the Box Content*/
+
+.Table-container{
+	background-color:white;
+	display:flex;
+	
+}
+
+.box{	
+	
+	width:25%;
+	margin:5px 50px;
+	border:2px solid #E3EAE9;
+	text-align:center;
+}
+
+.box-icon{
+	align-items:center;
+	/*border:2px solid red;*/
+	width:50%;
+	height:50%;
+}
+.box-icon{
+	
+	
+	height:100px;	
+}
+
+.box-name p{
+	 	font-size:2rem;
+}
+
+
+
+
+
